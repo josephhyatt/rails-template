@@ -1,16 +1,6 @@
-# Jumpstart Rails Template
-
-It's like Laravel Spark, for Rails. All your Rails apps should start off with a bunch of great defaults.
+# Rails Template
 
 **Note:** Requires Rails 5.2 or higher
-
-Want to see how it works? Check out [the Jumpstart walkthrough video](https://www.youtube.com/watch?v=ssOZpISfIfI):
-
-[![Jumpstart Ruby on Rails Template Walkthrough](https://i.imgur.com/pZDPbc7l.png)](https://www.youtube.com/watch?v=ssOZpISfIfI)
-
-## Getting Started
-
-Jumpstart is a Rails template, so you pass it in as an option when creating a new app.
 
 #### Requirements
 
@@ -27,7 +17,7 @@ You'll need the following installed to run the template successfully:
 #### Creating a new app
 
 ```bash
-rails new myapp -d postgresql -m https://raw.githubusercontent.com/excid3/jumpstart/master/template.rb
+rails new myapp -d postgresql -m https://raw.githubusercontent.com/josephhyatt/rails-template/master/template.rb
 ```
 
 Or if you have downloaded this repo, you can reference template.rb locally:
@@ -81,3 +71,6 @@ spring stop
 cd ..
 rm -rf myapp
 ```
+
+#### Inspired by Jumpstart Rails Template
+[JumpStart](https://github.com/excid3/jumpstart)
