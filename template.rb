@@ -269,6 +269,7 @@ after_bundle do
   add_sitemap
 
   # Migrate
+  rails_command "db:drop"
   rails_command "db:create"
   rails_command "db:migrate"
 
